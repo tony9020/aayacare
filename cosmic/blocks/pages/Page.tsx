@@ -45,7 +45,7 @@ export async function Page({
                       variant: "default",
                     })
                   )}
-                  href="https://www.cosmicjs.com"
+                  href="https://api.whatsapp.com/send?phone=918861259605&text=Hello%2C%20I%20want%20to%20know%20more%20about%20your%20services."
                 >
                   Get started free
                 </Link>
@@ -56,7 +56,7 @@ export async function Page({
                       variant: "secondary",
                     })
                   )}
-                  href="https://www.cosmicjs.com/contact"
+                  href="https://api.whatsapp.com/send?phone=918861259605&text=Hello%2C%20I%20want%20to%20know%20more%20about%20your%20services."
                 >
                   Contact us
                 </Link>

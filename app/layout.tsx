@@ -14,8 +14,9 @@ const display = Fjalla_One({
 })
 
 export const metadata: Metadata = {
-  title: "ProLine Content Corps",
-  description: "Build and scale faster with ProLine and Cosmic Blocks",
+  title: "Aayacare private limited",
+  description:
+    "Welcome to Aayacare – Where companionship meets care! We're your friendly partners in health, providing warm and comforting companions for hospital visits and more. Because sometimes, a smile is the best medicine. Join us in spreading joy, one visit at a time!",
 }
 
 export default function RootLayout({
