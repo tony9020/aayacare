@@ -6,7 +6,7 @@ export default async function SingleEventPage({
   params: { slug: string }
 }) {
   return (
-    <main className="p-4">
+    <main className="p-10">
       <SingleEvent query={{ slug: params.slug, type: "events" }} />
     </main>
   )

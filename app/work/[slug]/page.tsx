@@ -17,7 +17,7 @@ export default async function SingleProjectsPage({
     .depth(1)
 
   return (
-    <main className="p-4">
+    <main className="p-10">
       <div className="mb-10 w-full overflow-hidden">
         {project.metadata.image?.imgix_url && (
           <img

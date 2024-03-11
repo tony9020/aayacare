@@ -23,7 +23,7 @@ export async function SingleEvent({
 
     return (
       <section className={cn("m-auto pb-8 md:container", className)}>
-        <div className="relative m-auto max-w-[950px]">
+        <div className="relative m-auto max-w-6xl">
           <nav aria-label="Breadcrumb" className="mb-6">
             <ol role="list" className="flex space-x-2">
               <li>

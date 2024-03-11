@@ -7,7 +7,7 @@ export default async function SingleProductPage({
   params: { slug: string }
 }) {
   return (
-    <main className="p-4">
+    <main className="p-10">
       <SingleProduct query={{ slug: params.slug, type: "products" }} />
     </main>
   )

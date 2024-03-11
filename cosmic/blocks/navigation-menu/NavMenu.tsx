@@ -23,7 +23,7 @@ export async function NavMenu({
   return (
     <div className={className}>
       {/* Desktop */}
-      <div className={hasMobileMenu ? "hidden md:block" : ""}>
+      <div className={hasMobileMenu ? "hidden md:flex" : ""}>
         {nav.metadata.items.map((item: ItemType) => {
           return (
             <Link

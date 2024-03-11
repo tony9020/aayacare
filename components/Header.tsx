@@ -21,12 +21,12 @@ export default async function Header() {
           <img
             src={`${settings.metadata.logo.imgix_url}?w=500&auto=format,compression`}
             alt={settings.metadata.company}
-            className="h-16 m-auto dark:hidden"
+            className="max-h-16 m-auto dark:hidden"
           />
           <img
             src={`${settings.metadata.dark_logo.imgix_url}?w=500&auto=format,compression`}
             alt={settings.metadata.company}
-            className="h-16 m-auto hidden dark:block"
+            className="max-h-16 m-auto hidden dark:block"
           />
         </Link>
         <NavMenu

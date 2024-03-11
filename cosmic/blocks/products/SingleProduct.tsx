@@ -24,7 +24,7 @@ export async function SingleProduct({
 
     return (
       <section className={cn("md:container m-auto pb-8", className)}>
-        <div className="relative m-auto max-w-[950px]">
+        <div className="relative m-auto max-w-6xl">
           <nav aria-label="Breadcrumb" className="mb-6">
             <ol role="list" className="flex space-x-2">
               <li>

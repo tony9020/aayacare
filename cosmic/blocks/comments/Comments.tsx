@@ -31,7 +31,7 @@ function Comment({
     <div
       className={cn(
         "mb-6 flex flex-col rounded-xl border border-zinc-300 p-4 pb-6 dark:border-zinc-700",
-        className
+        ""
       )}
     >
       <div className="mb-4 flex w-full flex-col md:items-center justify-between gap-2 text-gray-500 dark:text-gray-200 sm:flex-row">
