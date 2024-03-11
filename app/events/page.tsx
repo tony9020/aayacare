@@ -10,7 +10,7 @@ export default async function EventListPage() {
             Upcoming Events
           </h1>
           <EventsList
-            className="m-auto grid place-items-center grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-8"
+            className="mx-auto grid place-items-center grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8"
             query={{ type: "events" }}
           />
         </div>
