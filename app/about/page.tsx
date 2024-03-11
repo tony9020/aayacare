@@ -30,7 +30,7 @@ export default async function AboutPage() {
           </h2>
           <TeamList
             query={{ type: "team-members" }}
-            className="grid w-full grid-cols-1 gap-6 lg:grid-cols-2"
+            className="grid w-full grid-cols-2 gap-6 lg:grid-cols-3"
           />
         </section>
       </div>
