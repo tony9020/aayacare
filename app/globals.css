@@ -85,8 +85,8 @@
 
 .glow {
   box-shadow:
-    0 0 7px #34ffdd,
-    0 0 5px #0ba9ca;
+    0 0 10px #34ffdd,
+    0 0 2px #0ba9ca;
   -webkit-animation: blink 1.2s infinite alternate;
   animation: blink 1.2s infinite alternate;
 }
@@ -117,6 +117,6 @@
     display: block;
     position: absolute;
     right: 20px;
-    top: 92vh;
+    top: 90vh;
   }
 }
