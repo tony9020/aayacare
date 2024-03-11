@@ -2,6 +2,7 @@
 import Link from "next/link"
 import { cosmic } from "@/cosmic/client"
 import { NavMenu } from "@/cosmic/blocks/navigation-menu/NavMenu"
+import Banner from "@/components/Banner"
 
 export default async function Header() {
   // Header data
@@ -14,8 +15,8 @@ export default async function Header() {
     .depth(1)
 
   return (
-    <nav className="space-x-4 sticky top-0 bg-white/20 dark:bg-black/20 backdrop-blur-lg py-2 w-full z-[9999]">
-      <div className="flex w-full items-center md:container justify-between pl-2 pr-4">
+    <nav className="border-0 border-solid border-b border-opacity-10 dark:border-opacity-20 border-stone-950 dark:border-white flex justify-evenly items-center space-x-4 sticky top-0 bg-white/20 dark:bg-black/20 backdrop-blur-lg py-2 w-full z-[9999]">
+      <div className="topnav flex  items-center w-1/2 justify-between pl-2 pr-4">
         <Link href="/">
           <img
             src={`${settings.metadata.logo.imgix_url}?w=500&auto=format,compression`}
@@ -33,6 +34,8 @@ export default async function Header() {
           hasMobileMenu
         />
       </div>
+
+      <Banner />
     </nav>
   )
 }

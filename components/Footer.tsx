@@ -23,7 +23,7 @@ export default async function Footer() {
   }
 
   return (
-    <nav className="pb-8 md:my-10 mx-auto flex flex-col lg:flex-row items-center justify-between container w-full">
+    <nav className="pb-8 md:my-10 mx-auto flex flex-col lg:flex-row items-center justify-between container w-3/4">
       <div className="my-8">
         <NavMenu query={{ type: "navigation-menus", slug: "footer" }} />
       </div>

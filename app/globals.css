@@ -74,3 +74,49 @@
     @apply bg-background text-foreground;
   }
 }
+
+.bannermob {
+  display: none;
+}
+
+.banner {
+  width: max-content;
+}
+
+.glow {
+  box-shadow:
+    0 0 7px #34ffdd,
+    0 0 5px #0ba9ca;
+  -webkit-animation: blink 1.2s infinite alternate;
+  animation: blink 1.2s infinite alternate;
+}
+@-webkit-keyframes blink {
+  100% {
+    box-shadow:
+      0 0 1px #fff,
+      0 0 12px #0ba9ca;
+  }
+}
+
+@keyframes blink {
+  100% {
+    box-shadow:
+      0 0 1px #fff,
+      0 0 12px #0ba9ca;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .topnav {
+    width: 100% !important;
+  }
+  .banner {
+    display: none;
+  }
+  .bannermob {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 92vh;
+  }
+}
