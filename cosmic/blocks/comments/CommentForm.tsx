@@ -75,8 +75,8 @@ export function CommentForm({
     <div className={cn("mb-8", className)}>
       <h2 className="mb-4 text-2xl">Add a new comment</h2>
       {error && (
-        <div className="mb-4 flex rounded-xl border border-red-500 p-8">
-          <XCircle className="relative top-1 mr-4 h-4 w-4 text-red-500" />
+        <div className="mb-4 flex rounded-xl border border-cyan-500 p-8">
+          <XCircle className="relative top-1 mr-4 h-4 w-4 text-cyan-500" />
           There was an error with your request. Make sure all fields are valid.
         </div>
       )}

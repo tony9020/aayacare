@@ -38,7 +38,7 @@ export function ImageGalleryClient({
               className={cn(
                 `overflow-hidden rounded-xl border-4`,
                 item.image.imgix_url === mainItem.image.imgix_url
-                  ? "border-orange-600"
+                  ? "border-sky-600"
                   : ""
               )}
             >

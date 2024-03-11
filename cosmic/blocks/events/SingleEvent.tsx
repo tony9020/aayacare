@@ -110,7 +110,7 @@ export async function SingleEvent({
                         key={item.item}
                         className="flex flex-col space-y-1 rounded-lg bg-gray-50 px-3 py-2 dark:bg-zinc-800"
                       >
-                        <span className="text-xs text-orange-600 dark:text-orange-400">
+                        <span className="text-xs text-sky-600 dark:text-sky-400">
                           {item.time}
                         </span>
                         <span className="font-medium">{item.item}</span>
