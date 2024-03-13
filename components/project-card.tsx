@@ -20,7 +20,10 @@ export type ProjectType = {
 
 export function ProjectCard({ project }: { project: ProjectType }) {
   return (
-    <Link href={`/work/${project.slug}`} className="group relative w-full">
+    <Link
+      href={`/work/${project.slug}`}
+      className="group relative w-full bg-zinc-50/50 dark:bg-zinc-900/50 p-4"
+    >
       <div className="w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75">
         {project.metadata.image?.imgix_url && (
           <img

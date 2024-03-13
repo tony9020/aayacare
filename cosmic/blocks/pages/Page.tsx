@@ -67,16 +67,16 @@ export async function Page({
             <img
               src={`${page.metadata.image.imgix_url}?w=1600&auto=format,compression`}
               alt={page.title}
-              className="w-full dark:hidden"
+              className="w-full rounded-xl dark:hidden"
             />
             <img
               src={`${page.metadata.dark_image.imgix_url}?w=1600&auto=format,compression`}
               alt={page.title}
-              className="hidden w-full dark:block"
+              className="hidden rounded-xl w-full dark:block"
             />
           </div>
         </div>
-        <section className="grid items-center bg-zinc-50 p-4 py-10 dark:bg-zinc-900">
+        <section className="grid items-center bg-zinc-50/75 p-4 py-10 dark:bg-zinc-900/75">
           <div className="relative m-auto flex max-w-6xl flex-col items-start gap-2">
             <h2 className="font-display m-auto max-w-[800px] pt-8 text-center text-3xl text-zinc-900 dark:text-zinc-100 md:text-6xl">
               {page.metadata.section_title}

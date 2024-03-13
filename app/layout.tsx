@@ -6,6 +6,8 @@ import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import { ThemeProvider } from "@/components/theme-provider"
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
+
 const sans = Libre_Franklin({ subsets: ["latin"], variable: "--font-sans" })
 const display = Fjalla_One({
   weight: "400",
@@ -42,6 +44,7 @@ export default function RootLayout({
           <Footer />
         </ThemeProvider>
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   )

@@ -190,8 +190,8 @@ body {
   }
   .bannermob {
     display: block;
-    position: absolute;
+    position: fixed;
     right: 20px;
-    top: 90vh;
+    top: 85vh;
   }
 }
